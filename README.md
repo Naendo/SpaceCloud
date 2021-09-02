@@ -77,9 +77,6 @@ Valentin Müller - muellval@gmail.com
 
 Project Link: [https://github.com/naendo/spacecloud](https://github.com/naendo/spacecloud)
 
-
-###Acknowledgements
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
@@ -94,33 +91,6 @@ Project Link: [https://github.com/naendo/spacecloud](https://github.com/naendo/s
 [contributors-shield]: https://img.shields.io/github/contributors/naendo/spacecloud.svg?style=for-the-badge
 
 [contributors-url]: https://github.com/naendo/spacecloud/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/naendo/spacecloud.svg?style=for-the-badge
-
-[forks-url]: https://github.com/naendo/spacecloud/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/naendo/spacecloud.svg?style=for-the-badge
-
-[stars-url]: https://github.com/naendo/spacecloud/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/naendo/spacecloud.svg?style=for-the-badge
-
-[issues-url]: https://github.com/naendo/spacecloud/issues
-
-[license-shield]: https://img.shields.io/github/license/naendo/spacecloud.svg?style=for-the-badge
-
-[license-url]: https://github.com/naendo/spacecloud/blob/master/LICENSE.txt
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
-[linkedin-url]: https://linkedin.com/in/naendo
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/naendo/spacecloud.svg?style=for-the-badge
-
-[contributors-url]: https://github.com/naendo/repo_name/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/naendo/spacecloud.svg?style=for-the-badge
 
