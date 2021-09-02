@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+
+@import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import '../../../node_modules/bulma/sass/utilities/functions.sass';
+
+// Import Roboto from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$family-sans-serif: 'Roboto', sans-serif;
+
+// Import SweetAlert Bulma Theme
+@import '~@sweetalert2/theme-bulma/bulma.scss';
+
+// Colors
+$primary: #1b53a8;
+$primary-invert: findColorInvert($primary);
+$primary-darker: #214782;
+$primary-filter: invert(25%) sepia(86%) saturate(1084%) hue-rotate(192deg)
+brightness(93%) contrast(98%);
+
+$red: #f53f27;
+$green: #81a802;
+
+
+$has-text-link: $primary;
+$has-background-link: $primary;
+
+$link: $primary;
+
+
+// Text
+$text: black;
+$text-grey: #707070;
+// $title-weight: 400;
+
+// Backgrounds
+// $hover-background: whitesmoke;
+$hover-background: #f9f9f9;
+$tile-background: white;
+
+// menu
+$menu-item-active-color: $primary;
+$menu-item-active-background-color: $primary-invert;
+
+// margins and paddings
+$section-padding: 1rem 0;
+
+
+
+// importing Bulma has to happen AFTER overwriting bulma variables, such as $primary
+
+// Import Bulma full
+@import '../../../node_modules/bulma/bulma.sass';
+
+
+
+// GLOBAL CSS
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.float-right {
+  float: right;
+}
+
+// Text
+.bold {
+  font-weight: bold;
+}
+
+.text-error {
+  color: $red;
+}
+
+.title {
+  letter-spacing: 2px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.text-grey {
+  color: $text-grey !important;
+}
+
+// Wrappers
+.wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: $tile-background;
+  padding: 35px;
+}
+
+.wrapper .wrapper {
+  padding: 10px 15px;
+}
+
+.content-wrapper-with-subnav-and-title {
+  display: flex;
+  flex-wrap: nowrap;
+  height: calc(100% - 2.5em * 2 - 32px); // was max-height -> tables with few entries caused the wrapper to be shorter than wanted
+  width: 100%;
+}
+
+.content-wrapper-with-subnav {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}
+
+.container-nowrap {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+}
+
+.fullwidth{
+  width: 100%;
+}
+
+// Tables
+.table-alt {
+  color: $text-grey;
+  text-align: center;
+}
+
+.full-height-table-container {
+  // max-height: calc(100% - 2.5em * 2 - 50px);
+  width: 100%;
+}
+
+.full-height-table-container table tr {
+  height: 39px;
+}
+
+.full-height-table-container table tr:hover {
+  cursor: pointer;
+}
+
+.sticky-header {
+  position: relative;
+}
+
+.sticky-header #table-headers > th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
+
+// Scrollable Content
+html,
+body {
+  overflow: hidden;
+}
+
+.scrollable {
+  overflow-y: auto !important;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 56, 58);
+}
+
+// Other
+.label {
+  margin: 0.85em 0 0.2em 0.4em !important;
+}
+
+
+// Old/Unused Transitions
+
+/*
+// Fade
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.13s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// moveUp
+.moveUp-enter-active {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.moveUp-leave-active {
+  animation: moveUp 0.3s ease-in;
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-400px);
+  }
+}
+
+// Slide
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+*/
+
+
+
+
+// Import only what you need from Bulma
+/*
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+// 1. Import the initial variables
+/*@import "../sass/utilities/initial-variables";
+@import "../sass/utilities/functions";
+
+/*
+$primary: #1b53a8;
+$has-text-link: #1b53a8;
+$has-background-link: #1b53a8;
+
+@import "../../../node-modules/bulma/";
+@import "../../../node_modules/bulma/bulma.sass";
+*/

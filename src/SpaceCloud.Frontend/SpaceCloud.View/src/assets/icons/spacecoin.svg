@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.891" height="53.891" viewBox="0 0 53.891 53.891">
+  <path d="M26.945,0A26.945,26.945,0,1,1,0,26.945,26.945,26.945,0,0,1,26.945,0Z" fill="#ff931e"/>
+  <g id="Rocket" transform="translate(11.672 14.055)">
+    <path d="M347.8,323.276s-12.87-3.871-19.01,17.547l4.777,4.038S353.557,336.959,347.8,323.276Z" transform="translate(-322.13 -323.003)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line x2="6.521" y2="5.512" transform="translate(19.628 0.993)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle cx="2.946" cy="2.946" r="2.946" transform="translate(16.766 4.654)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line x1="7.53" y2="8.91" transform="translate(7.439 13.117)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M375.99,421.55s4.232,5.073-5.116,11.66l-1.755-6.68" transform="translate(-355.656 -404.923)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path d="M299.966,370.706s-5.708-3.329-10.646,6.985l6.879.619" transform="translate(-289.32 -362.232)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

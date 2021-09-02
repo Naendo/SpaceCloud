@@ -1,0 +1,6 @@
+﻿ Add-Migration InitMigration -project Coworking.Infrastructure -o Persistence/Migrations
+ 
+dotnet ef migrations add refactorcart --project ../Coworking.Infrastructure
+dotnet ef update database
+$Env:ASPNETCORE_ENVIRONMENT = "Development"
+docker run --name some-postgres -e POSTGRES_PASSWORD=admin -p 5432:5432 postgres
