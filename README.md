@@ -18,9 +18,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a style="height: auto; width:150px; display:block; margin: 0 auto;" href="https://github.com/naendo/spacecloud">
+  <a  href="https://github.com/naendo/spacecloud">
 
- ![logo](resources/logo.png)
+ <img src="resources/logo.png" width=150 alt="logo">
 
   </a>
 
