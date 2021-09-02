@@ -66,7 +66,54 @@ To build a well-rounded system we decided to go with
 * [Vue.JS](https://vuejs.org) - Frontend
 
 
+###Usage
 
+If you wish to run SpaceCloud on your local system you need access to a few third party services. We recommend using our <a href="resources/appsettings.json">App Settings</a> template.
+
+
+###Contact
+
+Valentin Müller - muellval@gmail.com
+
+Project Link: [https://github.com/naendo/spacecloud](https://github.com/naendo/spacecloud)
+
+
+###Acknowledgements
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
+* [Microsoft Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/?&ef_id=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuJMwc1JZQo00tY59Tc6TLhu58_onJrBG5HjCWRI4kW6GwTaiH5VEAaAjMmEALw_wcB:G:s&OCID=AID2200147_SEM_Cj0KCQjw7MGJBhD-ARIsAMZ0eeuJMwc1JZQo00tY59Tc6TLhu58_onJrBG5HjCWRI4kW6GwTaiH5VEAaAjMmEALw_wcB:G:s&gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuJMwc1JZQo00tY59Tc6TLhu58_onJrBG5HjCWRI4kW6GwTaiH5VEAaAjMmEALw_wcB)
+* [Digital Ocean](https://www.digitalocean.com/try/developerbrand-nofto?utm_campaign=emea_brand-no-ftonew_kw_en_cpc&utm_adgroup=digitalocean_exact_exact&_keyword=digital%20ocean&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google&gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeumRxOgSbzcqeqHiXKcCy7RleXmJSQsMeHhmiUYMm6QIDPcvucMhZsaAh8zEALw_wcB)
+* [SendGrid](https://sendgrid.com)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/naendo/spacecloud.svg?style=for-the-badge
+
+[contributors-url]: https://github.com/naendo/spacecloud/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/naendo/spacecloud.svg?style=for-the-badge
+
+[forks-url]: https://github.com/naendo/spacecloud/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/naendo/spacecloud.svg?style=for-the-badge
+
+[stars-url]: https://github.com/naendo/spacecloud/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/naendo/spacecloud.svg?style=for-the-badge
+
+[issues-url]: https://github.com/naendo/spacecloud/issues
+
+[license-shield]: https://img.shields.io/github/license/naendo/spacecloud.svg?style=for-the-badge
+
+[license-url]: https://github.com/naendo/spacecloud/blob/master/LICENSE.txt
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/naendo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
