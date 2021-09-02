@@ -1,0 +1,84 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Persistence\20200624203028_InitMigration.cs" />
+    <Compile Remove="Persistence\20200624203028_InitMigration.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200624203053_InitMigration.cs" />
+    <Compile Remove="Persistence\Migrations\20200624203053_InitMigration.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200708200759_RefactorUserIdentityProperties.cs" />
+    <Compile Remove="Persistence\Migrations\20200708200759_RefactorUserIdentityProperties.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200709133843_TestMigration.cs" />
+    <Compile Remove="Persistence\Migrations\20200709133843_TestMigration.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200709134331_RenameAuthorization.cs" />
+    <Compile Remove="Persistence\Migrations\20200709134331_RenameAuthorization.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200710104520_AddNullConstraintToResetToken.cs" />
+    <Compile Remove="Persistence\Migrations\20200710104520_AddNullConstraintToResetToken.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200710144607_InitMigrationOnAzure.cs" />
+    <Compile Remove="Persistence\Migrations\20200710144607_InitMigrationOnAzure.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200710144819_InitMigrationOnAzure2.cs" />
+    <Compile Remove="Persistence\Migrations\20200710144819_InitMigrationOnAzure2.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200710192755_InitMigrationAzureDatabase.cs" />
+    <Compile Remove="Persistence\Migrations\20200710192755_InitMigrationAzureDatabase.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200814060946_AddCreatedByToProduct.cs" />
+    <Compile Remove="Persistence\Migrations\20200814060946_AddCreatedByToProduct.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200815133706_AddSubjectToTicket.cs" />
+    <Compile Remove="Persistence\Migrations\20200815133706_AddSubjectToTicket.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200815134318_AddSubjectToTicket2.cs" />
+    <Compile Remove="Persistence\Migrations\20200815134318_AddSubjectToTicket2.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200815134433_AddTicketsAfterDrop.cs" />
+    <Compile Remove="Persistence\Migrations\20200815134433_AddTicketsAfterDrop.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095051_AddCompanyAndCompanyLocation.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095051_AddCompanyAndCompanyLocation.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095244_AddCompanyAndCompanyLocationv2.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095244_AddCompanyAndCompanyLocationv2.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095648_AddCompanyAndCompanyLocation.cs" />
+    <Compile Remove="Persistence\Migrations\20200817095648_AddCompanyAndCompanyLocation.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817105734_AddCompanyAndCompanyLocation.cs" />
+    <Compile Remove="Persistence\Migrations\20200817105734_AddCompanyAndCompanyLocation.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817110158_AddCompanyAndCompanyLocation.cs" />
+    <Compile Remove="Persistence\Migrations\20200817110158_AddCompanyAndCompanyLocation.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200817110429_AddCompanyAndCompanyLocation.cs" />
+    <Compile Remove="Persistence\Migrations\20200817110429_AddCompanyAndCompanyLocation.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200819084953_AddDefaultValueToActivityProductProperty.cs" />
+    <Compile Remove="Persistence\Migrations\20200819084953_AddDefaultValueToActivityProductProperty.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200821064817_EditTimeTypeProduct.cs" />
+    <Compile Remove="Persistence\Migrations\20200821064817_EditTimeTypeProduct.Designer.cs" />
+    <Compile Remove="Persistence\Migrations\20200821065519_TryREnameSubscriptionInterval.cs" />
+    <Compile Remove="Persistence\Migrations\20200821065519_TryREnameSubscriptionInterval.Designer.cs" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="BackgroundQueue" Version="1.0.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coworking.Application\Coworking.Application.csproj" />
+  </ItemGroup>
+
+
+
+
+
+  <ItemGroup>
+    <Folder Include="Persistence\CQRS\User\Commands\" />
+    <Folder Include="Persistence\CQRS\Worker\Command" />
+  </ItemGroup>
+
+</Project>

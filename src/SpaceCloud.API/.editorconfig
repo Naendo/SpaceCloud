@@ -1,0 +1,19 @@
+﻿[*.cs]
+
+# CS8629: Ein Werttyp, der NULL zulässt, kann NULL sein.
+dotnet_diagnostic.CS8629.severity = none
+
+# CS8618: Das Non-Nullable-Feld ist nicht initialisiert. Deklarieren Sie das Feld ggf. als "Nullable".
+dotnet_diagnostic.CS8618.severity = none
+
+# IDE0058: Der Ausdruckswert wird niemals verwendet.
+csharp_style_unused_value_expression_statement_preference = unused_local_variable:silent
+
+# CS8603: Mögliche Nullverweisrückgabe.
+dotnet_diagnostic.CS8603.severity = none
+
+# CS8613: Die NULL-Zulässigkeit von Verweistypen im Rückgabetyp entspricht nicht dem implizit implementierten Member.
+dotnet_diagnostic.CS8613.severity = none
+
+# CS8602: Dereferenzierung eines möglichen Nullverweises.
+dotnet_diagnostic.CS8602.severity = none

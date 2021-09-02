@@ -1,0 +1,11 @@
+/.vs/*
+Dockerfile
+.DS_Store
+.gitignore
+env.*
+/devops/*
+*.csv
+/tmp/*
+.editorconfig
+.idea
+
