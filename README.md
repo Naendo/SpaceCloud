@@ -66,12 +66,12 @@ To build a well-rounded system we decided to go with
 * [Vue.JS](https://vuejs.org) - Frontend
 
 
-###Usage
+### Usage
 
 If you wish to run SpaceCloud on your local system you need access to a few third party services. We recommend using our <a href="resources/appsettings.json">App Settings</a> template.
 
 
-###Contact
+### Contact
 
 Valentin Müller - muellval@gmail.com
 
