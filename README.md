@@ -29,7 +29,7 @@
   <p align="center">
      The perfect ERP System for your Coworking!
     <br />
-    <a href="https://github.com/naendo/spacecloud"><strong>Explore the docs »</strong></a>
+    <a href="resources/Projektmappe_SpaceCloud.pdf"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/naendo/spacecloud">View Demo</a>
